@@ -1,0 +1,113 @@
+body{
+	margin: 0;
+}
+
+header{
+	display: flex;
+	background-image: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url("../images/lexus1.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top;
+	height: 800px;
+	align-items: center;
+	justify-content: center;
+}
+.pics{
+	position: relative;
+}
+.pics img{
+	position: absolute;
+	-weblit-transition: opacity 5s ease-in-out;
+	-moz-transition: opacity 5s ease-in-out;
+	-o-transition: opacity 5s ease-in-out;
+	transition: opacity 5s ease-in-out;
+}
+.pics img:last-child:hover{
+	opacity:0;
+}
+#title-text{
+	font-family:'Roboto Slab',serif;
+	font-size:	36px;
+	font-weight: normal;
+	color: white;
+	text-align: center;
+	width: 780px;
+	
+	
+}
+#profile{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	width: 100%;
+	
+}
+	
+#profile-text{
+	text-align: center;
+	font-family: 'Source Sans Pro',sans-serif;
+	font-size: 18px;
+	color:rgb(51, 51, 51);
+	line-height: 24px;
+	padding-bottom: 10px;
+    
+}
+#p1{
+	font-weight: bold;
+}
+#p2{
+	font-weight: italic;
+}
+section{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.body-text{
+	width: 66.67%;
+	position: relative;
+}
+.item {
+  padding:60px 0px;
+}
+.item-header{
+	margin:0px;
+	font-family: 'Roboto Slab',serif;
+	font-size: 36px;
+	font-weight: bold;
+	color: rgb(51, 51, 51);
+	
+}
+.item-num{
+	font-family: 'Roboto Slab',serif;
+	color: rgba(0, 0, 0, 0.25);
+	font-weight: bold;
+	font-size: 36px;
+	right:40px;
+	padding-right: 40px;
+	
+}
+.item-text{
+	font-family: "Source Sans Pro", sans-serif;
+	font-size: 18px;
+	line-height: 32px;
+	color: rgb(51, 51, 51);
+}
+.space {
+  height: 28px;
+}
+.long-space{
+	height:600px;
+}
+.flex-container{
+	position: absolute;
+	right: 100%;
+}
+img{
+  width:100%;
+}
+a{
+	color: #42b4d6;
+	text-decoration: none;
+}
